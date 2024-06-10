@@ -13,7 +13,7 @@
 #-------------------------------------------------------------------------------------------------------
 
 # Workflow name which is showed in GitHub Actions.
-name: Build Test
+name: Firmware_Build_Test
 
 on:
   workflow_dispatch:
@@ -34,7 +34,7 @@ env:
   # REPO means the OpenWrt repo you want to build from in this workflow. 
   # You can modify the REPO_NAME to any name you want, but remember not to let it have the same name in 
   # other workflows.
-  REPO_NAME: build test
+  REPO_NAME: Firmware_Build_Test
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: 4c4faf3d7c538dff5fd9707111808ee50064a840
   BUILD_DEPENDS:  "ack antlr3 asciidoc autoconf automake autopoint \
