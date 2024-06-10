@@ -36,7 +36,7 @@ env:
   # other workflows.
   REPO_NAME: Firmware_Build_Test
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
-  REPO_BRANCH: 4c4faf3d7c538dff5fd9707111808ee50064a840
+  REPO_BRANCH: 4c4faf3
   BUILD_DEPENDS:  "ack antlr3 asciidoc autoconf automake autopoint \
                   binutils bison build-essential bzip2 ccache cmake cpio curl device-tree-compiler ecj \
                   fakeroot fastjar flex gawk gettext genisoimage git gnutls-dev gperf haveged help2man \
